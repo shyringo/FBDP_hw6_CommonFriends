@@ -30,3 +30,9 @@
 ## 实验结果
 
 ## 思考
+
+### 关于maven的各种玄学问题
+
+couldn't transfer metadata https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml.
+
+这是我在从archetype创建项目时出现的报错。类似这样的玄学报错在作业五就遇到了很多很多很多，多是以couldn't transfer metadata/descriptor开头，搞得我一度很心累。我这次所幸不去找各种奇葩而难行的解决方案了，直接去maven的中央仓库手动下载了archetype的jar包，放到本地仓库。结果开始了下载过程，却直接报错找不到对应的archetype了。。。于是我决定弃用archetype。
